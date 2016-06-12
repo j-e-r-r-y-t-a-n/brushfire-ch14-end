@@ -1,0 +1,17 @@
+module.exports.blueprints = {
+  shortcuts: true,
+  prefix: '/bp',
+};
+
+module.exports.connections = {
+  myPostgresqlServer: {
+    adapter: 'sails-postgresql', 
+    host: 'localhost',
+    database: 'brushfire'
+  }
+};
+
+module.exports.mailgun =  {
+   domain: 'sandboxdf59020a497849b39ee73eec0fadbddf.mailgun.org', 
+  baseUrl: 'http://localhost:1337'
+}; 
